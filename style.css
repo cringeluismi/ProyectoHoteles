@@ -1,0 +1,162 @@
+@keyframes hideVideo {
+    0% { opacity: 1; }
+    95% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#videoWrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; 
+}
+
+#videoWrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#enterButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #BAA378; 
+    color: #000000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 2s 4s forwards;
+    border-radius: 25px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transition: all 0.5s; 
+}
+
+#enterButton:hover {
+    background-color: #000000; 
+    color: #BAA378;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); 
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 0;
+padding: 0;
+background-color: #F3F3F3;
+}
+
+header {
+background-color: #000000; 
+color: #BAA378; 
+padding: 10px;
+text-align: center;
+font-size: 2em;
+border-bottom: 3px solid #000000; 
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content: space-around;
+background-color: #000000; 
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+border-right: 1px solid #BAA378; 
+}
+
+nav ul li:last-child {
+border-right: none; 
+}
+
+nav ul li a {
+color: #BAA378; 
+text-decoration: none;
+font-size: 0.90em;
+text-align: center;
+padding: 0 15px; 
+}
+
+main {
+margin: 15px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+section {
+margin-bottom: 15px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+width: calc(100% / 3 - 30px);
+margin: 15px;
+padding: 20px;
+box-sizing: border-box;
+transition: 0.3s all ease-in-out;
+}
+
+section:hover {
+box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+footer {
+background-color: #BAA378; 
+color: #000000; 
+text-align: center;
+padding: 10px;
+width: 80%; 
+left: 10%; 
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 30%; 
+height: 500px; 
+margin: auto;
+overflow: auto;
+white-space: nowrap;
+border: 2px solid #BAA378; 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.card img {
+width: 100%;
+height: 60%; 
+object-fit: cover; 
+}
+
+.card .container {
+height: 40%; 
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+padding: 2px 16px;
+}
+
+img {
+width: 100%;
+height: auto;
+}
