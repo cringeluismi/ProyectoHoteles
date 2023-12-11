@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -12,24 +12,43 @@
             <source src="video.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
-        <a href="#Bienvenido" id="enterButton">Sumergirme en la experiencia</a>
+        <a href="#Bienvenio" id="enterButton">Sumergirme en la experiencia</a>
     
     </div>
     <header>
         <h1 id="Bienvenido">Bienvenido a Luxury Palace</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Acerca de</a></li>
-                <li><a href="#rooms">Habitaciones</a></li>
-                <li><a href="#restaurant">Restaurante</a></li>
-                <li><a href="#pool">Piscinas</a></li>
-                <li><a href="#spa">Spa</a></li>
-                <li><a href="#terrace">Terrazas con Solarium</a></li>
-                <li><a href="#disco">Discoteca</a></li>
-                <li><a href="#partyroom">Sala de Fiestas</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+        <!-- BARRA DE NAVEGACIÓN-->
+
+        <div class = "navbar">
+            
+                <a href="#about">Acerca de</a>
+                <a href="#rooms">Habitaciones</a>
+                <a href="#restaurant">Restaurante</a>
+
+                <div class = "subnav">
+                    <button class="subnavbtn">Descanso<i class="fa fa-caret-down"></i></button>
+
+                    <div class = "subnav-content">
+                        <a href="#pool">Piscinas</a>
+                        <a href="#spa">Spa</a>
+                        <a href="#terrace">Terrazas con Solarium</a>
+
+                    </div>
+
+                </div>
+                <div class = "subnav">
+                    <button class="subnavbtn">Ocio<i class="fa fa-caret-down"></i></button>
+                    <div class = "subnav-content">
+
+                     <a href="#disco">Discoteca</a>
+                    <a href="#partyroom">Sala de Fiestas</a>
+                    
+                </div>
+                
+            </div>
+            <a href="#contact">Contacto</a>
+            
+        </div>
     </header>
     <main>
         <section id="about">
