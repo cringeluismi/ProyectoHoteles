@@ -73,16 +73,18 @@ border-bottom: 3px solid #000000;
 .navbar {
     overflow: hidden;
     background-color: #BAA378;
+    
   }
 
 /* Navigation links */
 .navbar a {
-    float: left;
-    font-size: 16px;
+    float: left ;
+    font-size: 30px;
     color: white;
     text-align: center;
-    padding: 15px 16px;
+    padding: 14px 100px;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
   }
 
 /* The subnavigation menu */
@@ -93,35 +95,41 @@ border-bottom: 3px solid #000000;
 
 /* Subnav button */
 .subnav .subnavbtn {
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 14px 50px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
     
   }
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color: #96815a;
+  
   }
   /* Style the subnav content - positioned absolute */
 .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color:#75674d;
     width: 100%;
     z-index: 1;
+    
   }
   /* Style the subnav links */
-.subnav-content a {
+  .subnav-content a {
     float: left;
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
+
   }
+
   
   /* Add a grey background color on hover */
   .subnav-content a:hover {
