@@ -313,3 +313,14 @@ height: auto;
   color: #666; 
   font-size: 18px; 
 }
+
+/* Boton de volver al inicio de cada tarjeta */
+.back-to-top {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #333; 
+  color: #fff; 
+  text-decoration: none; 
+  border-radius: 5px; 
+}
