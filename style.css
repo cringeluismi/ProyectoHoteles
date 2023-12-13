@@ -62,12 +62,12 @@ background-color: #F3F3F3;
 }
 
 header {
-background-color: #000000; 
+background-color: #1f1e1e; 
 color: #BAA378; 
 padding: 10px;
 text-align: center;
 font-size: 2em;
-border-bottom: 3px solid #000000; 
+border-bottom: 3px solid #1f1e1e; 
 }
 /*MENU*/
 .navbar {
@@ -82,7 +82,7 @@ border-bottom: 3px solid #000000;
     font-size: 30px;
     color: white;
     text-align: center;
-    padding: 14px 100px;
+    padding: 14px 150px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
   }
@@ -99,7 +99,7 @@ border-bottom: 3px solid #000000;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 50px;
+    padding: 14px 100px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
