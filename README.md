@@ -11,3 +11,4 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 14/12/23 - 00:02 Carlos - Se soluciona el problema del logo principal y se pone delante del video. Se monta la tarjeta de Discoteca.
 - 14/12/23 - 00:21 Carlos - Se monta la tarjeta de Sala de juegos.
 - 14/12/23 - 00:36 Carlos - Se ponen botones en las tarjetas montadas que conducen al menu de inicio. 
+- 14/12/23 - 00:47 - Se monta la tarjeta de Sala de fiestas. Se termina la sección de Ocio (Falta pulir diseños, colores y fuentes)
