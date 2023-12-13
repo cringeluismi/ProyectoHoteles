@@ -249,6 +249,7 @@ height: auto;
   width: 80%;
 }
 
+/* Desde aqui se trabaja el estilo de la tarjeta discoteca */
 #disco {
   overflow-y: auto;
   max-height: 500px;
@@ -276,6 +277,39 @@ height: auto;
 }
 
 #disco p {
+  color: #666; 
+  font-size: 18px; 
+}
+
+/* Desde aqui se trabaja el estilo de la tarjeta Sala de juegos */
+
+#gameroom {
+  overflow-y: auto;
+  max-height: 500px;
+  background-color: #BAA378; 
+}
+
+#gameroom img {
+  display: block;
+  width: 100%;
+  height: auto;  
+  object-fit: contain;
+}
+
+#gameroom {
+  font-family: 'Verdana', sans-serif; 
+  color: #333; 
+  line-height: 1.6; 
+  text-align: center;
+}
+
+#gameroom h2 {
+  color: #333;
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+#gameroom p {
   color: #666; 
   font-size: 18px; 
 }
