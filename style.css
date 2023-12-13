@@ -209,3 +209,19 @@ img {
 width: 100%;
 height: auto;
 }
+
+.logo {
+  position: absolute;
+  width: 20%;
+}
+
+.logofotter {
+  position: absolute;
+  width: 7%;
+  height: 7%;
+}
+
+.title {
+  position: right;
+  width: 80%;
+}
