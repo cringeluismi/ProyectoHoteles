@@ -33,9 +33,6 @@ html {
   justify-content: flex-start;
 }
 
-
-
-
 #enterButton {
     position: absolute;
     top: 50%;
@@ -87,8 +84,6 @@ text-align: center;
 font-size: 2em;
 border-bottom: 3px solid #1f1e1e; 
 }
-
-
   
   /*Menu*/
   /* Add a black background color to the top navigation */
@@ -393,6 +388,17 @@ height: auto;
   font-size: 18px; 
 }
 
+/* Para ocultar el scroll de las tarjetas en navegadores Firefox*/
+#disco, #gameroom, #partyroom {
+  scrollbar-width: none;
+}
+
+/* Para ocultar el scroll de las tarjetas en navegadores Chrome, Edge, Safari*/
+
+#disco::-webkit-scrollbar, #gameroom::-webkit-scrollbar, #partyroom::-webkit-scrollbar {
+  display: none;
+}
+
 /* Boton de volver al inicio de cada tarjeta */
 .back-to-top {
   display: inline-block;
@@ -406,6 +412,18 @@ height: auto;
 
 
 /* Estilo del formulario de contacto */
+#logo-formulario {
+  position: relative;
+  width: 10%;
+  top: -75px;
+  height: auto;
+  
+  }
+
+#titulo-reservas {
+  text-align: center;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #BAA378;
@@ -413,12 +431,15 @@ body {
 }
 
 form {
+  position: relative;
   width: 80%;
+  top: -70px;
   margin: 0 auto;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  
 }
 
 form label {
@@ -507,3 +528,4 @@ form input[type="number"] {
 #camposAlergias input[type="checkbox"] {
   margin-right: 5px;
 }
+
