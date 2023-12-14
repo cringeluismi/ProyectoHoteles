@@ -34,11 +34,21 @@ html {
 }
 
 /* Con el uso de Media Queries definimos estilos diferentes para diferentes tamaños de navegador */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     background-color: blue;
   }
 }
+@media(min-width: 769px) and (max-width: 1200px){
+ .nav {
+  display: flex;
+  flex-direction: column;
+ } /*Para Portatiles, tablets, pantallas medianas*/
+}
+@media(min-width: 1201px){
+  /*Para pantallas de escritorio o algo mas grande */
+}
+
 
 #enterButton {
     position: absolute;
