@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    function mostrarCamposReserva() {
+      var select = document.getElementById("motivo");
+      var reservaHabitacion = document.getElementById("reservaHabitacion");
+      var reservaRestaurante = document.getElementById("reservaRestaurante");
+      reservaHabitacion.style.display = select.value == "reservaHabitacion" ? "block" : "none";
+      reservaRestaurante.style.display = select.value == "reservaRestaurante" ? "block" : "none";
+    }
+    function mostrarCampoEdad() {
+    var ninos = document.getElementById("ninos");
+    var edadNinos = document.getElementById("edadNinos");
+    edadNinos.style.display = ninos.value > 0 ? "block" : "none";
+  }
+  function mostrarOpcionCuna() {
+    var edad = document.getElementById("edad");
+    var opcionCuna = document.getElementById("opcionCuna");
+    opcionCuna.style.display = edad.value <= 3 ? "block" : "none";
+  }
+  </script>
+</head>
+<body>
+  <h1>RESERVAS</h1>
+  <form action="/submit" method="post">
+    <label for="nombre">Nombre y apellidos:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
+    <label for="email">Correo electrónico:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="motivo">Motivo de la consulta:</label><br>
+    <select id="motivo" name="motivo" onchange="mostrarCamposReserva()">
+      <option value="consulta">Consulta</option>
+      <option value="reservaHabitacion">Reserva de habitación</option>      
+      <option value="reservaRestaurante">Reserva en el restaurante</option>
+      <option value="reservaSalaFiestas">Reserva de la sala de fiestas</option>
+    </select><br>
+    <div id="reservaHabitacion" style="display: none;">
+        <label for="tipoHabitacion">Tipo de habitación:</label><br>
+  <select id="tipoHabitacion" name="tipoHabitacion">
+    <option value="">--Selecciona una opción--</option>
+    <option value="habitacionDeluxe">Habitación Deluxe</option>
+    <option value="suitePresidencial">Suite Presidencial</option>
+  </select><br>
+  <label for="personas">Número de personas:</label><br>
+  <input type="number" id="personas" name="personas"><br>
+  <label for="fumador">¿Es una habitación de fumadores?</label><br>
+  <select id="fumador" name="fumador">
+    <option value="">--Selecciona una opción--</option>
+    <option value="si">Sí</option>
+    <option value="no">No</option>
+  </select><br>
+  <label for="tipoCama">Tipo de cama:</label><br>
+  <select id="tipoCama" name="tipoCama">
+    <option value="">--Selecciona una opción--</option>
+    <option value="camaSencilla">Cama sencilla</option>
+    <option value="dosCamas">Dos camas</option>
+    <option value="matrimonio">Matrimonio</option>
+  </select><br>
+  <label for="minibar">Tipo de productos en el minibar:</label><br>
+  <select id="minibar" name="minibar">
+    <option value="">--Selecciona una opción--</option>
+    <option value="normales">Productos normales</option>
+    <option value="deluxe">Productos deluxe</option>
+  </select><br>
+  <label for="regimen">Régimen:</label><br>
+  <select id="regimen" name="regimen">
+    <option value="">--Selecciona una opción--</option>
+    <option value="soloDesayuno">Solo desayuno</option>
+    <option value="mediaPension">Media pensión</option>
+    <option value="pensionCompleta">Pensión completa</option>
+  </select><br>
+  <label for="ninos">Número de niños:</label><br>
+  <input type="number" id="ninos" name="ninos" onchange="mostrarCampoEdad()"><br>
+  <div id="edadNinos" style="display: none;">
+    <label for="edad">Edad de los niños:</label><br>
+    <input type="number" id="edad" name="edad" onchange="mostrarOpcionCuna()"><br>
+    <div id="opcionCuna" style="display: none;">
+        <label for="cuna">¿Necesita una cuna?</label><br>
+        <select id="cuna" name="cuna">
+          <option value="">--Selecciona una opción--</option>
+          <option value="si">Sí</option>
+          <option value="no">No</option>
+        </select><br>
+    </div>
+  </div>
+    </div>
+    <div id="reservaRestaurante" style="display: none;">
+      
+      </div>
+    </div>
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

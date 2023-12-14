@@ -367,3 +367,92 @@ height: auto;
   text-decoration: none; 
   border-radius: 5px; 
 }
+
+
+/* Estilo del formulario de contacto */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #BAA378;
+  color: #000000;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  background-color: #000000;
+  color: #BAA378;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+form select {
+  width: 100%;
+  padding: 15px; 
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #000000;
+  font-family: Arial, sans-serif; 
+  font-size: 1em;
+}
+
+
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #000000;
+}
+
+form select:hover {
+  background-color: #000000;
+  color: #BAA378;
+}
+
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #000000;
+}
