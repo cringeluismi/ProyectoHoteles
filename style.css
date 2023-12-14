@@ -456,3 +456,18 @@ form input[type="number"] {
   background-color: #fff;
   color: #000000;
 }
+
+#camposAlergias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#camposAlergias label {
+  display: flex;
+  align-items: center;
+}
+
+#camposAlergias input[type="checkbox"] {
+  margin-right: 5px;
+}

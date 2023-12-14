@@ -21,6 +21,26 @@
     var opcionCuna = document.getElementById("opcionCuna");
     opcionCuna.style.display = edad.value <= 3 ? "block" : "none";
   }
+  function mostrarCamposNinosRestaurante() {
+    var ninosRestaurante = document.getElementById("ninosRestaurante");
+    var camposNinosRestaurante = document.getElementById("camposNinosRestaurante");
+    camposNinosRestaurante.style.display = ninosRestaurante.value == "si" ? "block" : "none";
+  }
+  function mostrarOpcionTrona() {
+    var edadNinosRestaurante = document.getElementById("edadNinosRestaurante");
+    var opcionTrona = document.getElementById("opcionTrona");
+    opcionTrona.style.display = edadNinosRestaurante.value <= 5 ? "block" : "none";
+  }
+  function mostrarCamposAlergias() {
+    var alergicos = document.getElementById("alergicos");
+    var camposAlergias = document.getElementById("camposAlergias");
+    camposAlergias.style.display = alergicos.value == "si" ? "block" : "none";
+  }
+  function mostrarCampoOtraAlergia() {
+    var otra = document.getElementById("otra");
+    var otraAlergia = document.getElementById("otraAlergia");
+    otraAlergia.style.display = otra.checked ? "block" : "none";
+  }
   </script>
 </head>
 <body>
@@ -87,9 +107,55 @@
     </div>
   </div>
     </div>
-    <div id="reservaRestaurante" style="display: none;">
-      
-      </div>
+        <div id="reservaRestaurante" style="display: none;">
+            <label for="comensales">Número de comensales:</label><br>
+  <input type="number" id="comensales" name="comensales"><br>
+  <label for="ninosRestaurante">¿Hay niños?</label><br>
+  <select id="ninosRestaurante" name="ninosRestaurante" onchange="mostrarCamposNinosRestaurante()">
+    <option value="">--Selecciona una opción--</option>
+    <option value="si">Sí</option>
+    <option value="no">No</option>
+  </select><br>
+  <div id="camposNinosRestaurante" style="display: none;">
+    <label for="menuInfantil">¿Necesita menú infantil?</label><br>
+    <select id="menuInfantil" name="menuInfantil">
+      <option value="">--Selecciona una opción--</option>
+      <option value="si">Sí</option>
+      <option value="no">No</option>
+    </select><br>
+    <label for="edadNinosRestaurante">Edad de los niños:</label><br>
+    <input type="number" id="edadNinosRestaurante" name="edadNinosRestaurante" onchange="mostrarOpcionTrona()"><br>
+    <div id="opcionTrona" style="display: none;">
+      <label for="trona">¿Necesita una trona?</label><br>
+      <select id="trona" name="trona">
+        <option value="">--Selecciona una opción--</option>
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+      </select><br>
+    </div>
+  </div>
+  <label for="alergicos">¿Hay alérgicos o intolerantes a alimentos?</label><br>
+  <select id="alergicos" name="alergicos" onchange="mostrarCamposAlergias()">
+    <option value="">--Selecciona una opción--</option>
+    <option value="si">Sí</option>
+    <option value="no">No</option>
+  </select><br>
+  <div id="camposAlergias" style="display: none;">
+    <input type="checkbox" id="frutosSecos" name="alergias" value="frutosSecos">
+    <label for="frutosSecos">Frutos secos</label><br>
+    <input type="checkbox" id="mariscos" name="alergias" value="mariscos">
+    <label for="mariscos">Mariscos</label><br>
+    <input type="checkbox" id="gluten" name="alergias" value="gluten">
+    <label for="gluten">Gluten</label><br>
+    <input type="checkbox" id="lactosa" name="alergias" value="lactosa">
+    <label for="lactosa">Lactosa</label><br>
+    <input type="checkbox" id="fruta" name="alergias" value="fruta">
+    <label for="fruta">Fruta</label><br>
+    <input type="checkbox" id="otra" name="alergias" value="otra" onchange="mostrarCampoOtraAlergia()">
+    <label for="otra">Otra</label><br>
+    <textarea id="otraAlergia" name="otraAlergia" style="display: none;"></textarea><br>
+  </div>      
+        </div>
     </div>
     <label for="mensaje">Mensaje:</label><br>
     <textarea id="mensaje" name="mensaje"></textarea><br>
