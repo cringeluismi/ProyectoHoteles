@@ -3,7 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Hotel Luxury - Carlos - Luismi - Mario - Alex</title>
+    <script>
+                /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,38 +35,50 @@
         
             <h1 id="Bienvenido">Bienvenido a Luxury Palace</h1>
         
-        <!-- BARRA DE NAVEGACIÓN (DESAPARECERA PRONTO DIGO HOY DIGO MAÑAÑA DiGO OTRO DIA)-->
+        <!-- BARRA DE NAVEGACIÓN-->
 
-        <div class = "navbar" id="navbar">
-            
-                <a href="#about">Acerca de</a>
-                <a href="#rooms">Habitaciones</a>
-                <a href="#restaurant">Restaurante</a>
+       
+        <div class="topnav" id="myTopnav">
+            <a href="#about">Acerca de</a>
 
-                <div class = "subnav">
-                    <button class="subnavbtn">Descanso<i class="fa fa-caret-down"></i></button>
-
-                    <div class = "subnav-content">
-                        <a href="#pool">Piscinas</a>
-                        <a href="#spa">Spa</a>
-                        <a href="#terrace">Terrazas con Solarium</a>
-
-                    </div>
-
-                </div>
-                <div class = "subnav">
-                    <button class="subnavbtn">Ocio<i class="fa fa-caret-down"></i></button>
-                    <div class = "subnav-content">
-
-                     <a href="#disco">Discoteca</a>
-                    <a href="#partyroom">Sala de Fiestas</a>
-                    <a href="#gameroom">Sala de juegos</a>
-                    
-                </div>                
+            <div class="dropdown">
+              <button class="dropbtn">Habitaciones
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href = "#a">Suite Presidencial</a>
+                <a href = "#a">Habitación Deluxe</a>
             </div>
-            <a href="formulario.html">Reservas</a>
-            
         </div>
+        
+        <a href="#restaurant">Restaurante</a>
+
+         <div class="dropdown">
+                <button class="dropbtn">Descanso
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href = "#pool">Piscinas</a>
+                  <a href = "#spa">Spa</a>
+                  <a href = "#terrace">Terrazas con Solarium</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">Ocio
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href = "#disco">Discoteca</a>
+                  <a href = "#partyroom">Sala de Fiestas</a>
+                  <a hreg = "#gameroom">Sala de juegos</a>
+                </div>
+              </div>
+
+              <a href="formulario.html">Reservas</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+              
+          </div>
     </header>
     <main>
         <section id="about">
