@@ -1,6 +1,28 @@
 html {
     scroll-behavior: smooth;
 }
+/*responsive para mobiles*/
+@media only screen and (max-width:768px){
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+/*Fin responsive para mobiles*/
+
+/*responsive para monitores*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*Fin responsive para monitores*/
 
 @keyframes hideVideo {
     0% { opacity: 1; }
@@ -136,10 +158,12 @@ border-bottom: 3px solid #1f1e1e;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #BAA378;
+  background-color: #755e34;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px  rgba(255, 255, 255, 0.2);
   z-index: 1;
+  opacity: 0;
+  transition: opacity 0.7s ease;
 
 }
 
@@ -168,6 +192,7 @@ border-bottom: 3px solid #1f1e1e;
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
+  opacity: 1;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
