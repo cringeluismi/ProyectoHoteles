@@ -352,9 +352,9 @@ height: auto;
 #tratamientos {
   overflow-y: auto;
   max-height: 500px;
-  background-color: #BAA378; 
+  background-color: #7a6235; 
   font-family: 'Verdana', sans-serif; 
-  color: #333; 
+  color: #ffffff; 
   line-height: 1.6; 
   text-align: center;
 }
@@ -385,7 +385,7 @@ height: auto;
 }
 
 #gameroom h2 {
-  color: #333;
+  color: #BAA378; 
   text-transform: uppercase; 
   letter-spacing: 2px; 
 }
@@ -400,7 +400,7 @@ height: auto;
 #partyroom {
   overflow-y: auto;
   max-height: 500px;
-  background-color: #BAA378; 
+  background-color: #7a6235;
 }
 
 #partyroom img {
@@ -412,13 +412,13 @@ height: auto;
 
 #partyroom {
   font-family: 'Verdana', sans-serif; 
-  color: #333; 
+  color: #ffffff; 
   line-height: 1.6; 
   text-align: center;
 }
 
 #partyroom h2 {
-  color: #333;
+  color: #bc9323;
   text-transform: uppercase; 
   letter-spacing: 2px; 
 }
@@ -429,13 +429,13 @@ height: auto;
 }
 
 /* Para ocultar el scroll de las tarjetas en navegadores Firefox*/
-#disco, #gameroom, #partyroom {
+#disco, #gameroom, #partyroom #tratamientos {
   scrollbar-width: none;
 }
 
 /* Para ocultar el scroll de las tarjetas en navegadores Chrome, Edge, Safari*/
 
-#disco::-webkit-scrollbar, #gameroom::-webkit-scrollbar, #partyroom::-webkit-scrollbar {
+#disco::-webkit-scrollbar, #gameroom::-webkit-scrollbar, #partyroom::-webkit-scrollbar, #tratamientos::-webkit-scrollbar {
   display: none;
 }
 
