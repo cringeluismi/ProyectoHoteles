@@ -5,29 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Hotel Luxury - Carlos - Luismi - Mario - Alex</title>
-    <script>
-                /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-            x.className += " responsive";
-            } else {
-            x.className = "topnav";
-            }
-        }
-        function showSubNav() {
-          var subnav = document.querySelector('dropdown');
-          subnav.style.display = 'block';
-        }
-
-        function hideSubNav() {
-          var subnav = document.querySelector('dropdown');
-          subnav.style.display = 'none';
-        }
-    </script>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    
+  </head>
+  <body>
+  
     
     <div class="video-wrapper">
         <video autoplay loop muted>
@@ -90,8 +72,7 @@
               <a href="formulario.html">Reservas</a>
               <a href="#turismo">Turismo</a>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-              <a href = "javascript:void(0);" class="icon" onclick="showSubNav()"></a>
-              <a href = "javascript:void(0);" class="icon" onclick="hideSubNav()"></a>
+             
               
           </div>
     </header>
@@ -183,5 +164,7 @@
         <p>Para más información, por favor contáctenos a través de nuestro formulario de contacto.</p>
     </footer>
     <p id="IconosRS"><img src="facebook.png"></p>
+    
 </body>
+<script src = "scriptNavBar.js"></script>
 </html>
