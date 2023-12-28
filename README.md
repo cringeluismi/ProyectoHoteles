@@ -15,3 +15,4 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 14/12/23 - 18:22 Carlos - Se crea y se da formato a la parte Reservas, creando un formulario de contacto (Usando algo de JavaScript)  
 - 14/12/23 -20:40 Mario - responsive en la barra de navegación (utilizando javaScript)
 -  18/12/23 -11:07 Mario - responsive en la barra de navegación (utilizando javaScript)
+-  28/12/23 -13:11 Mario -mejorando el javaScript de la barra de navegación.
