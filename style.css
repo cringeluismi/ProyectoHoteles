@@ -127,18 +127,7 @@ border-bottom: 3px solid #1f1e1e;
   text-decoration: none;
   font-size: 25px;
 }
-.topnav a::after {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 0.4em;
-  width: 0%;
-  background-color: var(--pink);
-  transition: all 0.7s ease;
-}
-.topnav a:hover::after {
-  width: 110px;
-}
+
 
 /* Add an active class to highlight the current page */
 .active {
