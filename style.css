@@ -603,6 +603,9 @@ form input[type="number"] {
   text-align: center;
 }
 
-
+/* Centrar el título */
+#vinos h2 {
+  text-align: center;
+}
 
 
