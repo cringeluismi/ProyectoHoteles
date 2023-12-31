@@ -12,15 +12,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.back-to-top {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: #333; 
-    color: #fff; 
-    text-decoration: none; 
-    border-radius: 5px; 
-  }
 
 /* Ocultar la barra de desplazamiento */
 .card::-webkit-scrollbar {
