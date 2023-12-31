@@ -578,3 +578,31 @@ form input[type="number"] {
   width: 20px;
 }
 
+/* Centrar el título */
+#postres h2 {
+  text-align: center;
+}
+
+/* Centrar el título */
+#aguas h2 {
+  text-align: center;
+}
+
+/* Centrar el título */
+#licores h2 {
+  text-align: center;
+}
+
+/* Centrar el título */
+#cervezas h2 {
+  text-align: center;
+}
+
+/* Centrar el título */
+#platos h2 {
+  text-align: center;
+}
+
+
+
+

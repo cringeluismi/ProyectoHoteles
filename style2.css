@@ -3,7 +3,7 @@
     transition: 0.3s;
     width: 80%; /* Hacer las tarjetas más anchas */
     height: 500px; 
-    margin: auto;
+    margin: 2cm;
     overflow-y: auto; /* Habilitar el desplazamiento vertical */
     overflow-x: hidden; /* Deshabilitar el desplazamiento lateral */
     white-space: normal; /* Permitir que el texto se ajuste a la tarjeta */
@@ -12,6 +12,15 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+  }
 
 /* Ocultar la barra de desplazamiento */
 .card::-webkit-scrollbar {
@@ -35,3 +44,4 @@
 .container {
     padding: 2px 16px;
 }
+
