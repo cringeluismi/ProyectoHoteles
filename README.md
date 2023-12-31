@@ -16,3 +16,4 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 14/12/23 -20:40 Mario - responsive en la barra de navegación (utilizando javaScript)
 -  18/12/23 -11:07 Mario - responsive en la barra de navegación (utilizando javaScript)
 -  28/12/23 -13:11 Mario -mejorando el javaScript de la barra de navegación.
+- 31/12/23 - 15:31 Carlos - Creación de la pestaña y web "Restaurante" con las cartas correspondientes terminadas.
