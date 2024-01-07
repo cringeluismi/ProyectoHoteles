@@ -607,5 +607,16 @@ form input[type="number"] {
 #vinos h2 {
   text-align: center;
 }
+.social-icons {
+  position: absolute;
+  bottom: 10px; /* Ajusta la distancia desde el borde inferior según sea necesario */
+  right: 10px; /* Ajusta la posición derecha según sea necesario */
+  display: flex;
+  gap: 10px;
+}
 
+.social-icons a img {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px;
+}
 
