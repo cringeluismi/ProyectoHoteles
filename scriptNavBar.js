@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
     progressBar.style.height = '2px';
     progressBar.style.bottom = '0';
     progressBar.style.left = '0';
-    progressBar.style.backgroundColor = 'red'; // Change this to match your design
+    progressBar.style.backgroundColor = "red"; // Change this to match your design
     progressBar.style.width = '0';
     link.style.position = 'relative';
     link.appendChild(progressBar);
 
     link.addEventListener('mouseenter', function () {
       const text = this.textContent;
-      const textWidth = getTextWidth(text, '28px Arial'); // Include the font family
+      const textWidth = getTextWidth(text, '29px Arial'); // Include the font family
       progressBar.style.width = `${textWidth}px`;
     });
 

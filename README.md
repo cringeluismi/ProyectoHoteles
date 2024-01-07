@@ -18,3 +18,4 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 -  28/12/23 -13:11 Mario -mejorando el javaScript de la barra de navegación.
 - 31/12/23 - 15:31 Carlos - Creación de la pestaña y web "Restaurante" con las cartas correspondientes terminadas.
 - 07/01/24 - 19:12 Alex - Iconos Redes Sociales en la portada.
+-7/01/24 -22:25 Mario -Pequeñas modificaciones y agregación de los horarios (aun por pulir) de Ocio y Descanso
