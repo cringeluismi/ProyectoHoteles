@@ -13,9 +13,10 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 14/12/23 - 00:36 Carlos - Se ponen botones en las tarjetas montadas que conducen al menu de inicio. 
 - 14/12/23 - 00:47 - Se monta la tarjeta de Sala de fiestas. Se termina la sección de Ocio (Falta pulir diseños, colores y fuentes)
 - 14/12/23 - 18:22 Carlos - Se crea y se da formato a la parte Reservas, creando un formulario de contacto (Usando algo de JavaScript)  
-- 14/12/23 -20:40 Mario - responsive en la barra de navegación (utilizando javaScript)
--  18/12/23 -11:07 Mario - responsive en la barra de navegación (utilizando javaScript)
--  28/12/23 -13:11 Mario -mejorando el javaScript de la barra de navegación.
+- 14/12/23 - 20:40 Mario - responsive en la barra de navegación (utilizando javaScript)
+- 18/12/23 - 11:07 Mario - responsive en la barra de navegación (utilizando javaScript)
+- 28/12/23 - 13:11 Mario -mejorando el javaScript de la barra de navegación.
 - 31/12/23 - 15:31 Carlos - Creación de la pestaña y web "Restaurante" con las cartas correspondientes terminadas.
 - 07/01/24 - 19:12 Alex - Iconos Redes Sociales en la portada.
--7/01/24 -22:25 Mario -Pequeñas modificaciones y agregación de los horarios (aun por pulir) de Ocio y Descanso
+- 07/01/24 - 22:25 Mario - Pequeñas modificaciones y agregación de los horarios (aun por pulir) de Ocio y Descanso
+- 08/01/24 - 09:25 Luismi - Botón Menú + Mejora de descripciones de la página principal + CSS Update
