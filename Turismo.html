@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+     <script src="scriptNavBar.js" defer></script>
+</head>ç
+<body>
+    <header>
+        <h1>Destinos Turísticos</h1>
+    </header>
+    <div class="topnav" id="myTopnav">  
+        <a href="index.html">Inicio</a>      
+        <div class="dropdown">       
+            <button class="dropbtn">Destinos 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#peniscola">Peñiscola</a>                
+                <a href="#oropesa">Oropesa</a>
+                <a href="#morella">Morella</a>
+                <a href="#lavallduixo">La Vall d'Uixó</a>
+                <a href="#aresdelmaestrat">Ares del Maestrat</a>
+                <a href="#vilafames">Vilafamés</a>                
+            </div>
+        </div> 
+        <a href="formulario.html">Reserva</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <main>
+        <div class="card-container">
+            <!-- Carta de Platos -->
+            <div class="card" id="platos">
+                <img src="comida.webp" alt="Carta de Platos">
+                <h2>Carta de Platos</h2>
+                
+                <h3>Platos Típicos Españoles</h3>
+                
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <h4>Tortilla Española - 8.00€</h4>
+                    <p>Tortilla de patatas y cebolla, un clásico de la cocina española.</p>
+                    
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <h4>Paella Valenciana - 15.00€</h4>
+                    <p>Arroz con pollo, conejo y verduras, originario de la Comunidad Valenciana.</p>
+                    
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <h4>Gazpacho Andaluz - 7.00€</h4>
+                    <p>Sopa fría de tomate y verduras, típica de Andalucía.</p>
+                    
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <h4>Pulpo a la Gallega - 12.00€</h4>
+                    <p>Pulpo cocido con pimentón, sal y aceite de oliva, típico de Galicia.</p>
+                    
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <h4>Fabada Asturiana - 10.00€</h4>
+                    <p>Guiso de fabes, chorizo, morcilla y lacón, originario de Asturias.</p>
+                    
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <h4>Cochinillo Asado - 18.00€</h4>
+                    <p>Lechón asado al horno, típico de Segovia.</p>
+                    
+                </div>
+
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <h4>Calçots con Romesco - 9.00€</h4>
+                    <p>Cebolletas asadas con salsa romesco, típicas de Cataluña.</p>
+                    
+                </div>
+
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <h4>Pisto Manchego - 8.00€</h4>
+                    <p>Guiso de verduras, originario de Castilla-La Mancha.</p>
+                    
+                </div>
+
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <h4>Merluza a la Koskera - 14.00€</h4>
+                    <p>Merluza con espárragos y guisantes, típica del País Vasco.</p>
+                    
+                </div>
+
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <h4>Rabo de Toro - 16.00€</h4>
+                    <p>Estofado de rabo de toro, típico de Córdoba.</p>
+                    
+                </div>
+
+                <!-- Producto 11 -->
+                <div class="producto">
+                    <h4>Albóndigas en Salsa - 10.00€</h4>
+                    <p>Albóndigas de carne en salsa, un plato común en toda España.</p>
+                    
+                </div>
+
+                <!-- Producto 12 -->
+                <div class="producto">
+                    <h4>Gambas al Ajillo - 12.00€</h4>
+                    <p>Gambas salteadas con ajo, un plato popular en toda España.</p>
+                    
+                </div>
+
+                <!-- Producto 13 -->
+                <div class="producto">
+                    <h4>Patatas Bravas - 7.00€</h4>
+                    <p>Patatas fritas con salsa picante, un plato común en los bares españoles.</p>
+                   
+                </div>
+
+                <!-- Producto 14 -->
+                <div class="producto">
+                    <h4>Calamares a la Romana - 10.00€</h4>
+                    <p>Anillos de calamar rebozados y fritos, un plato popular en toda España.</p>
+                    
+                </div>
+
+                <!-- Producto 15 -->
+                <div class="producto">
+                    <h4>Ensaladilla Rusa - 8.00€</h4>
+                    <p>Ensalada de patatas con mayonesa, atún y verduras, un plato común en toda España.</p>
+                    
+                </div>
+
+                <!-- Producto 16 -->
+                <div class="producto">
+                    <h4>Croquetas de Jamón - 8.00€</h4>
+                    <p>Croquetas cremosas de bechamel y jamón, un plato común en toda España.</p>
+                    
+                </div>
+
+                <!-- Producto 17 -->
+                <div class="producto">
+                    <h4>Pimientos de Padrón - 7.00€</h4>
+                    <p>Pimientos verdes fritos, un plato típico de Galicia.</p>
+                    
+                </div>
+
+                <!-- Producto 18 -->
+                <div class="producto">
+                    <h4>Chorizo a la Sidra - 9.00€</h4>
+                    <p>Chorizo cocido en sidra, un plato típico de Asturias.</p>
+                    
+                </div>
+
+                <!-- Producto 19 -->
+                <div class="producto">
+                    <h4>Salmorejo - 7.00€</h4>
+                    <p>Sopa fría de tomate y pan, típica de Andalucía.</p>
+                    
+                </div>
+
+                <!-- Producto 20 -->
+                <div class="producto">
+                    <h4>Escalivada - 8.00€</h4>
+                    <p>Ensalada de verduras asadas, típica de Cataluña.</p>
+                    
+                </div>
+
+                <h3>Platos Típicos del Mundo</h3>
+
+                <!-- Producto 21 -->
+                <div class="producto">
+                    <h4>Pizza Napolitana - 10.00€</h4>
+                    <p>Pizza con tomate, mozzarella y albahaca, originaria de Nápoles, Italia.</p>
+                    
+                </div>
+
+                <!-- Producto 22 -->
+                <div class="producto">
+                    <h4>Sushi - 15.00€</h4>
+                    <p>Rollos de arroz y pescado, originarios de Japón.</p>
+                    
+                </div>
+
+                <!-- Producto 23 -->
+                <div class="producto">
+                    <h4>Tacos - 8.00€</h4>
+                    <p>Tortillas de maíz con varios rellenos, originarias de México.</p>
+                    
+                </div>
+            </div>            
+            <!-- Carta de Postres -->
+            <div class="card" id="postres">
+                <img src="postres.jpg" alt="Carta de Postres">
+                <h2>Carta de Postres</h2>                
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <h3>Tarta de Santiago - 4.50€</h3>
+                    <p>Una deliciosa tarta de almendras originaria de Galicia.</p>
+                    <img src="santiago.jpg" alt="Tarta de Santiago">
+                </div>                
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <h3>Flan de Huevo - 3.50€</h3>
+                    <p>Un clásico flan de huevo casero con caramelo.</p>
+                    <img src="flan.jpg" alt="Flan de Huevo">
+                </div>                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <h3>Arroz con Leche - 3.00€</h3>
+                    <p>Un cremoso postre de arroz con leche, canela y limón.</p>
+                    <img src="arroz.jpg" alt="Arroz con Leche">
+                </div>            
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <h3>Churros con Chocolate - 4.00€</h3>
+                    <p>Churros recién hechos servidos con una taza de chocolate caliente.</p>
+                    <img src="churros.jpg" alt="Churros con Chocolate">
+                </div>            
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <h3>Leche Frita - 3.50€</h3>
+                    <p>Un postre tradicional hecho de leche y harina, frito y espolvoreado con azúcar y canela.</p>
+                    <img src="leche.jpg" alt="Leche Frita">
+                </div>            
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <h3>Natillas - 3.00€</h3>
+                    <p>Suaves y cremosas natillas de vainilla, servidas con una galleta.</p>
+                    <img src="natillas.jpg" alt="Natillas">
+                </div>            
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <h3>Torrijas - 4.00€</h3>
+                    <p>Rebanadas de pan empapadas en leche y huevo, fritas y espolvoreadas con azúcar y canela.</p>
+                    <img src="torrijas.jpg" alt="Torrijas">
+                </div>            
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <h3>Crema Catalana - 4.50€</h3>
+                    <p>Una rica crema pastelera cubierta con una capa de azúcar caramelizado.</p>
+                    <img src="catalana.jpg" alt="Crema Catalana">
+                </div>            
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <h3>Pestiños - 3.50€</h3>
+                    <p>Dulces fritos bañados en miel, típicos de Andalucía.</p>
+                    <img src="pestiños.jpg" alt="Pestiños">
+                </div>            
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <h3>Polvorones - 3.00€</h3>
+                    <p>Deliciosos polvorones caseros, perfectos para acompañar con un café.</p>
+                    <img src="polvorones.jpg" alt="Polvorones">
+                </div>
+            </div>
+            <!-- Carta de Aguas -->
+            <div class="card" id="aguas">
+                <img src="agua.webp" alt="Carta de Aguas">
+                <h2>Carta de Aguas</h2>
+                
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Solán de Cabras - 2.50€</h3>
+                    <p>Agua mineral natural de origen español con un sabor suave y refrescante.</p>
+                    
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Evian - 3.00€</h3>
+                    <p>Agua mineral natural de los Alpes franceses, conocida por su pureza y mineralización equilibrada.</p>
+                    
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Perrier - 3.50€</h3>
+                    <p>Agua mineral natural carbonatada de origen francés, famosa por sus burbujas únicas.</p>
+                    
+                </div>
+            
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural San Pellegrino - 3.00€</h3>
+                    <p>Agua mineral natural con gas de origen italiano, con un toque de burbujas y mineralización única.</p>
+                    
+                </div>
+            
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Fiji - 4.00€</h3>
+                    <p>Agua mineral natural de las Islas Fiji, conocida por su sabor suave y su botella icónica.</p>
+                    
+                </div>
+            
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Voss - 4.50€</h3>
+                    <p>Agua mineral natural de Noruega, embotellada en una botella de vidrio cilíndrica distintiva.</p>
+                   
+                </div>
+            
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Volvic - 2.50€</h3>
+                    <p>Agua mineral natural de Francia, conocida por su origen volcánico y su sabor puro.</p>
+                    
+                </div>
+            
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Acqua Panna - 3.00€</h3>
+                    <p>Agua mineral natural de Italia, famosa por su pureza y suavidad.</p>
+                    
+                </div>
+            
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Icelandic Glacial - 4.00€</h3>
+                    <p>Agua mineral natural de Islandia, conocida por su origen glaciar y su equilibrio de minerales.</p>
+                    
+                </div>
+            
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Dasani - 2.00€</h3>
+                    <p>Agua purificada mejorada con minerales para un sabor puro y fresco.</p>
+                    
+                </div>
+            
+                <!-- Producto 11 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural SmartWater - 2.50€</h3>
+                    <p>Agua destilada con electrolitos añadidos para un sabor puro y crujiente.</p>
+                    
+                </div>
+            
+                <!-- Producto 12 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Nestlé Pure Life - 2.00€</h3>
+                    <p>Agua purificada que pasa por un proceso de filtración de 12 pasos.</p>
+                    
+                </div>
+            
+                <!-- Producto 13 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Aquafina - 2.00€</h3>
+                    <p>Agua purificada por un sistema de filtración de siete pasos para garantizar la pureza y el sabor.</p>
+                    
+                </div>
+            
+                <!-- Producto 14 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Gerolsteiner - 3.50€</h3>
+                    <p>Agua mineral natural de Alemania, conocida por su alto contenido de minerales.</p>
+                    
+                </div>
+            
+                <!-- Producto 15 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Badoit - 3.50€</h3>
+                    <p>Agua mineral natural con gas de Francia, con un sabor suave y un toque de burbujas.</p>
+                    
+                </div>
+            
+                <!-- Producto 16 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Topo Chico - 3.00€</h3>
+                    <p>Agua mineral con gas de México, famosa por su sabor refrescante y sus burbujas intensas.</p>
+                    
+                </div>
+            
+                <!-- Producto 17 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Mountain Valley - 3.50€</h3>
+                    <p>Agua de manantial de Estados Unidos, embotellada en el lugar de origen en las montañas Ouachita.</p>
+                    
+                </div>
+            
+                <!-- Producto 18 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Hildon - 4.00€</h3>
+                    <p>Agua mineral natural de Inglaterra, conocida por su sabor limpio y equilibrado.</p>
+                    
+                </div>
+            
+                <!-- Producto 19 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Lauquen Artes - 4.50€</h3>
+                    <p>Agua mineral natural de Argentina, embotellada en el lugar de origen en la Patagonia.</p>
+                    
+                </div>
+            
+                <!-- Producto 20 -->
+                <div class="producto">
+                    <h3>Agua Mineral Natural Blk - 4.00€</h3>
+                    <p>Agua mineral con fulvic trace, conocida por su color negro y su sabor limpio y suave.</p>
+                    
+                </div>                
+               
+            </div>
+            
+            <div class="card" id="vinos">
+                <img src="vinos.jpg" alt="Carta de Vinos">
+                <h2>Carta de Vinos</h2>
+                
+                <h3>Vinos Tintos</h3>
+                
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <h4>Rioja Alta Gran Reserva 904 - 50.00€</h4>
+                    <p>Vino tinto de la Rioja, conocido por su sabor a frutas rojas y especias.</p>
+                   
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <h4>Vega Sicilia Único - 350.00€</h4>
+                    <p>Vino tinto de la Ribera del Duero, famoso por su complejidad y elegancia.</p>
+                   
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <h4>Pingus - 900.00€</h4>
+                    <p>Vino tinto de la Ribera del Duero, conocido por su intensidad y profundidad.</p>
+                   
+                </div>
+            
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <h4>Almirez - 20.00€</h4>
+                    <p>Vino tinto de Toro, conocido por su sabor a frutas negras y taninos suaves.</p>
+                    
+                </div>
+            
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <h4>Alion - 75.00€</h4>
+                    <p>Vino tinto de la Ribera del Duero, famoso por su sabor a frutas negras y su final largo.</p>
+                    
+                </div>
+            
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <h4>Mauro - 30.00€</h4>
+                    <p>Vino tinto de Castilla y León, conocido por su sabor a frutas rojas y su equilibrio.</p>
+                    
+                </div>
+            
+                <h3>Vinos Rosados</h3>
+            
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <h4>Chivite Las Fincas Rosado - 10.00€</h4>
+                    <p>Vino rosado de Navarra, conocido por su sabor a frutas rojas y su frescura.</p>
+                    
+                </div>
+            
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <h4>Enate Rosado - 8.00€</h4>
+                    <p>Vino rosado de Somontano, famoso por su sabor a frutas rojas y su acidez equilibrada.</p>
+                    
+                </div>
+            
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <h4>Muga Rosado - 10.00€</h4>
+                    <p>Vino rosado de la Rioja, conocido por su sabor a frutas rojas y su final refrescante.</p>
+                    
+                </div>
+            
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <h4>Viña Esmeralda Rosé - 7.00€</h4>
+                    <p>Vino rosado de Cataluña, famoso por su sabor a frutas rojas y su dulzura.</p>
+                    >
+                </div>
+            
+                <!-- Producto 11 -->
+                <div class="producto">
+                    <h4>Ramón Bilbao Lalomba - 20.00€</h4>
+                    <p>Vino rosado de la Rioja, conocido por su sabor a frutas rojas y su complejidad.</p>
+                    
+                </div>
+            
+                <!-- Producto 12 -->
+                <div class="producto">
+                    <h4>Torres De Casta Rosado - 7.00€</h4>
+                    <p>Vino rosado de Cataluña, conocido por su sabor a frutas rojas y su frescura.</p>
+                    
+                </div>
+            
+                <h3>Vinos Blancos</h3>
+            
+                <!-- Producto 13 -->
+                <div class="producto">
+                    <h4>Albariño Pazo de Señorans - 15.00€</h4>
+                    <p>Vino blanco de Rías Baixas, conocido por su sabor a frutas blancas y su acidez refrescante.</p>
+                    
+                </div>
+            
+                <!-- Producto 14 -->
+                <div class="producto">
+                    <h4>Verdejo José Pariente - 10.00€</h4>
+                    <p>Vino blanco de Rueda, famoso por su sabor a frutas blancas y su final largo.</p>
+                    
+                </div>
+            
+                <!-- Producto 15 -->
+                <div class="producto">
+                    <h4>Godello Valdesil - 12.00€</h4>
+                    <p>Vino blanco de Valdeorras, conocido por su sabor a frutas blancas y su mineralidad.</p>
+                    
+                </div>
+            
+                <!-- Producto 16 -->
+                <div class="producto">
+                    <h4>Viura Monopole - 8.00€</h4>
+                    <p>Vino blanco de la Rioja, famoso por su sabor a frutas blancas y su frescura.</p>
+                    
+                </div>
+            
+                <!-- Producto 17 -->
+                <div class="producto">
+                    <h4>Xarel·lo Albet i Noya - 10.00€</h4>
+                    <p>Vino blanco de Penedès, conocido por su sabor a frutas blancas y su acidez equilibrada.</p>
+                    
+                </div>
+            
+                <!-- Producto 18 -->
+                <div class="producto">
+                    <h4>Garnacha Blanca Herencia Altes - 8.00€</h4>
+                    <p>Vino blanco de Terra Alta, conocido por su sabor a frutas blancas y su final refrescante.</p>
+                    
+                </div>
+            
+                <h3>Cavas</h3>
+            
+                <!-- Producto 19 -->
+                <div class="producto">
+                    <h4>Gramona III Lustros - 30.00€</h4>
+                    <p>Cava de Penedès, conocido por su sabor a frutas blancas y su burbuja fina.</p>
+                    
+                </div>
+            
+                <!-- Producto 20 -->
+                <div class="producto">
+                    <h4>Recaredo Terrers - 20.00€</h4>
+                    <p>Cava de Penedès, famoso por su sabor a frutas blancas y su complejidad.</p>
+                    
+                </div>
+            </div>
+            
+            <!-- Carta de Cervezas -->
+            <div class="card" id="cervezas">
+                <img src="cervezas.jpg" alt="Carta de Cervezas">
+                <h2>Carta de Cervezas</h2>
+                
+                <h3>Cervezas Rubias</h3>
+                
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <h4>Estrella Damm - 3.00€</h4>
+                    <p>Agua mineral natural de origen español con un sabor suave y refrescante.</p>
+                   
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <h4>Heineken - 3.50€</h4>
+                    <p>Cerveza lager holandesa, famosa por su sabor equilibrado y su botella verde.</p>
+                    
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <h4>Corona Extra - 4.00€</h4>
+                    <p>Cerveza lager mexicana, ideal para disfrutar con una rodaja de limón.</p>
+                    
+                </div>
+            
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <h4>Budweiser - 3.00€</h4>
+                    <p>Cerveza lager estadounidense, conocida como "The King of Beers".</p>
+                   
+                </div>
+            
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <h4>Stella Artois - 3.50€</h4>
+                    <p>Cerveza lager belga, famosa por su sabor rico y su copa distintiva.</p>
+                    
+                </div>
+            
+                <h3>Cervezas Tostadas</h3>
+            
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <h4>Newcastle Brown Ale - 4.00€</h4>
+                    <p>Cerveza ale inglesa, conocida por su sabor a malta y caramelo.</p>
+                    
+                </div>
+            
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <h4>Samuel Adams Boston Lager - 4.50€</h4>
+                    <p>Cerveza lager estadounidense, con un sabor equilibrado de malta y lúpulo.</p>
+                    
+                </div>
+            
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <h4>Sierra Nevada Pale Ale - 4.50€</h4>
+                    <p>Cerveza ale estadounidense, famosa por su sabor a lúpulo y su aroma floral.</p>
+                   
+                </div>
+            
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <h4>Guinness Draught - 5.00€</h4>
+                    <p>Cerveza stout irlandesa, conocida por su sabor a malta tostada y su espuma cremosa.</p>
+                    
+                </div>
+            
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <h4>Hoegaarden - 4.00€</h4>
+                    <p>Cerveza blanca belga, con un sabor suave y notas de cilantro y cáscara de naranja.</p>
+                    
+                </div>
+            
+                <h3>Cervezas Negras</h3>
+            
+                <!-- Producto 11 -->
+                <div class="producto">
+                    <h4>Guinness Original - 5.00€</h4>
+                    <p>Cerveza stout irlandesa, famosa por su sabor a malta tostada y café.</p>
+                    
+                </div>
+            
+                <!-- Producto 12 -->
+                <div class="producto">
+                    <h4>Murphy's Irish Stout - 5.00€</h4>
+                    <p>Cerveza stout irlandesa, con un sabor suave y notas de caramelo y chocolate.</p>
+                    
+                </div>
+            
+                <!-- Producto 13 -->
+                <div class="producto">
+                    <h4>Samuel Smith's Oatmeal Stout - 5.50€</h4>
+                    <p>Cerveza stout inglesa, con un sabor rico a avena y malta tostada.</p>
+                    
+                </div>
+            
+                <!-- Producto 14 -->
+                <div class="producto">
+                    <h4>Left Hand Milk Stout - 5.50€</h4>
+                    <p>Cerveza stout estadounidense, con un sabor dulce a lactosa y café.</p>
+                    
+                </div>
+            
+                <!-- Producto 15 -->
+                <div class="producto">
+                    <h4>Young's Double Chocolate Stout - 6.00€</h4>
+                    <p>Cerveza stout inglesa, con un sabor rico a chocolate y malta tostada.</p>
+                   
+                </div>
+            </div>
+            <!-- Carta de Licores -->
+            <div class="card" id="licores">
+                <img src="Licores.png" alt="Carta de Licores">
+                <h2>Carta de Licores</h2>
+                
+                <h3>Licores del Mundo</h3>
+                
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <h4>Absolut Vodka - 4.00€</h4>
+                    <p>Vodka sueco, conocido por su pureza y versatilidad en cócteles.</p>
+                    
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <h4>Baileys Irish Cream - 4.50€</h4>
+                    <p>Licor de crema irlandés, famoso por su sabor suave y cremoso.</p>
+                    
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <h4>Campari - 4.00€</h4>
+                    <p>Licor italiano, conocido por su sabor amargo y su color rojo vibrante.</p>
+                    
+                </div>
+            
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <h4>Cointreau - 4.50€</h4>
+                    <p>Licor de naranja francés, famoso por su sabor dulce y cítrico.</p>
+                    
+            
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <h4>Disaronno Amaretto - 4.50€</h4>
+                    <p>Licor italiano, conocido por su sabor a almendra y albaricoque.</p>
+                    
+                </div>
+            
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <h4>Drambuie - 5.00€</h4>
+                    <p>Licor escocés, famoso por su sabor a miel y hierbas.</p>
+                    
+                </div>
+            
+                <!-- Producto 7 -->
+                <div class="producto">
+                    <h4>Frangelico - 4.50€</h4>
+                    <p>Licor italiano, conocido por su sabor a avellana.</p>
+                    
+                </div>
+            
+                <!-- Producto 8 -->
+                <div class="producto">
+                    <h4>Grand Marnier - 5.00€</h4>
+                    <p>Licor de naranja francés, famoso por su sabor cítrico y su toque de coñac.</p>
+                   
+                </div>
+            
+                <!-- Producto 9 -->
+                <div class="producto">
+                    <h4>Jägermeister - 4.00€</h4>
+                    <p>Licor alemán, conocido por su sabor a hierbas y especias.</p>
+                    
+                </div>
+            
+                <!-- Producto 10 -->
+                <div class="producto">
+                    <h4>Kahlúa - 4.50€</h4>
+                    <p>Licor de café mexicano, famoso por su sabor dulce y café.</p>
+                    
+                </div>
+            
+                <!-- Producto 11 -->
+                <div class="producto">
+                    <h4>Jack Daniel's - 5.00€</h4>
+                    <p>Whisky estadounidense, conocido por su sabor suave y su proceso de filtrado a través de carbón de arce.</p>
+                    
+                </div>
+            
+                <!-- Producto 12 -->
+                <div class="producto">
+                    <h4>Bombay Sapphire - 4.50€</h4>
+                    <p>Ginebra inglesa, famosa por su sabor a enebro y su botella azul distintiva.</p>
+                    
+                </div>
+            
+                <!-- Producto 13 -->
+                <div class="producto">
+                    <h4>Patrón Silver - 6.00€</h4>
+                    <p>Tequila mexicano, conocido por su sabor suave y su botella hecha a mano.</p>
+                    
+                </div>
+            
+                <!-- Producto 14 -->
+                <div class="producto">
+                    <h4>Bacardi Superior - 4.00€</h4>
+                    <p>Ron blanco cubano, famoso por su sabor suave y su versatilidad en cócteles.</p>
+                    
+                </div>
+            
+                <!-- Producto 15 -->
+                <div class="producto">
+                    <h4>Grey Goose - 5.50€</h4>
+                    <p>Vodka francés, conocido por su sabor suave y su proceso de destilación a partir de trigo francés.</p>
+                    
+                </div>
+            
+                <h3>Licores Tradicionales Españoles</h3>
+            
+                <!-- Producto 16 -->
+                <div class="producto">
+                    <h4>Licor 43 - 4.00€</h4>
+                    <p>Licor español, conocido por su sabor a vainilla y cítricos.</p>
+                    
+                </div>
+            
+                <!-- Producto 17 -->
+                <div class="producto">
+                    <h4>Anís del Mono - 4.00€</h4>
+                    <p>Licor de anís español, famoso por su sabor dulce y su botella distintiva.</p>
+                    
+                </div>
+            
+                <!-- Producto 18 -->
+                <div class="producto">
+                    <h4>Pacharán Navarro - 4.50€</h4>
+                    <p>Licor de endrinas español, conocido por su sabor a frutas y su color rojo.</p>
+                    
+                </div>
+            
+                <!-- Producto 19 -->
+                <div class="producto">
+                    <h4>Crema de Orujo - 4.50€</h4>
+                    <p>Licor de crema español, famoso por su sabor suave y cremoso.</p>
+                    
+                </div>
+            
+                <!-- Producto 20 -->
+                <div class="producto">
+                    <h4>Hierbas Ibicencas - 5.00€</h4>
+                    <p>Licor de hierbas español, conocido por su sabor a hierbas y su origen en Ibiza.</p>
+                    
+                </div>
+            
+                <!-- Producto 21 -->
+                <div class="producto">
+                    <h4>Ron Miel Guanche - 4.50€</h4>
+                    <p>Licor de ron y miel español, famoso por su sabor dulce y su origen en Canarias.</p>
+                    
+                </div>
+            
+                <!-- Producto 22 -->
+                <div class="producto">
+                    <h4>Licor de Café Gallego - 4.50€</h4>
+                    <p>Licor de café español, conocido por su sabor a café y su origen en Galicia.</p>
+                    
+                </div>
+            
+                <!-- Producto 23 -->
+                <div class="producto">
+                    <h4>Agua de Valencia - 5.00€</h4>
+                    <p>Cóctel español, famoso por su sabor a cítricos y su origen en Valencia.</p>
+                    
+                </div>
+            </div>           
+        </div>
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
