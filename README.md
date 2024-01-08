@@ -20,3 +20,4 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 07/01/24 - 19:12 Alex - Iconos Redes Sociales en la portada.
 - 07/01/24 - 22:25 Mario - Pequeñas modificaciones y agregación de los horarios (aun por pulir) de Ocio y Descanso
 - 08/01/24 - 09:25 Luismi - Botón Menú + Mejora de descripciones de la página principal + CSS Update
+- 08/01/24 - 09:44 Alex - Imagenes turismo + turismo.html (aun por modificar)
