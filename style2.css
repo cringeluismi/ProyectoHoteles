@@ -38,4 +38,35 @@
 .container {
     padding: 2px 16px;
 }
+h2 {
+    
+    font-size: 35px;
+    font-weight: 400;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+h4 {
+    font-size: 20px;
+    color:#353434;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 25px;
+    color:#353434;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
