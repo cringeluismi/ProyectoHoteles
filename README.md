@@ -21,3 +21,7 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 07/01/24 - 22:25 Mario - Pequeñas modificaciones y agregación de los horarios (aun por pulir) de Ocio y Descanso
 - 08/01/24 - 09:25 Luismi - Botón Menú + Mejora de descripciones de la página principal + CSS Update
 - 08/01/24 - 09:44 Alex - Imagenes turismo + descripción turismo + turismo.html (aun por modificar)
+- 09/01/24 - 10:22 Luismi - Made all cards on the main pages look white
+
+Changes to implement:
+1. Fit images correctly on the main page
