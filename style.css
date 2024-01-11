@@ -675,3 +675,22 @@ form input[type="number"] {
   height: 30px;
 }
 
+/*Estilo del Scroll*/
+
+::-webkit-scrollbar{
+  width: 10px;
+
+
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 9px grey;
+  border-radius: 10px;   
+}
+::-webkit-scrollbar-thumb {
+  background: #373229;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #544d40;
+ 
+}
