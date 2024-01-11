@@ -1,8 +1,9 @@
-:root {
-  --pink: #ebd1a1;
+body {
+  overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
+     
 }
 /*responsive para mobiles*/
 @media only screen and (max-width:768px){
