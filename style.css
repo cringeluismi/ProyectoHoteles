@@ -1,6 +1,4 @@
-body {
-  overflow-x: hidden;
-}
+
 html {
     scroll-behavior: smooth;
      
@@ -528,6 +526,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #BAA378;
   color: #000000;
+  overflow-x: hidden;
 }
 
 form {
