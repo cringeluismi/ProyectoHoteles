@@ -32,4 +32,20 @@ document.addEventListener('DOMContentLoaded', function () {
     const width = context.measureText(text).width;
     return width;
   }
+  
+});
+window.addEventListener('click', function(e) {
+  const y = e.clientY; // Get the y position of the click
+  const scrolled = window.scrollY || window.pageYOffset; // Get how much the window has scrolled
+  const height = window.innerHeight || document.documentElement.clientHeight; // Get the window height
+
+  const scrollAmount = height / 2; // Set the scroll amount to half of the window height
+
+  if (y < height / 2) {
+    // If the click was in the top half of the window, scroll up
+    window.scrollTo(0, scrolled - scrollAmount);
+  } else {
+    // If the click was in the bottom half of the window, scroll down
+    window.scrollTo(0, scrolled + scrollAmount);
+  }
 });
