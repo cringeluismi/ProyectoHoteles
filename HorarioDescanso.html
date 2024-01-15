@@ -5,7 +5,23 @@
      <link rel="stylesheet" href="styleHorarios.css">
 </head>
 <body>
-    <div class="card">
+    <header><div class="topnav" id="myTopnav">  
+        <a href="index.html">Inicio</a>      
+        <div class="dropdown">       
+            <button class="dropbtn">Horarios
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#spa">Spa</a>                
+                <a href="#pool">Piscina</a>
+                <a href="#terrace">Terraza</a>
+               
+            </div>
+        </div> 
+       
+    </div>
+    </header>
+    <div class="card" id ="spa">
 
         <h1>HORARIOS SPA</h1>
         <table class = "table">
@@ -57,9 +73,9 @@
         </table>
     </div>
     
-    <div class="card">
+    <div class="card" id ="pool">
 
-        <h1>HORARIOS PISCINA</h1>
+        <h1> HORARIOS PISCINA</h1>
         <table class = "table">
             <tr class ="row">
                 <th>Fecha</th>
@@ -108,7 +124,7 @@
            
         </table>
     </div>
-    <div class ="card">
+    <div class ="card" id ="terrace">
 
         <h1>HORARIOS TERRAZA</h1>
         <table class = "table">
