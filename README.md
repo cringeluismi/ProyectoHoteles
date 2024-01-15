@@ -23,6 +23,4 @@ El proyecto intenta replicar al máximo posible una página de hoteles de lujo.
 - 08/01/24 - 09:44 Alex - Imagenes turismo + descripción turismo + turismo.html (aun por modificar)
 - 09/01/24 - 10:22 Luismi - Made all cards on the main pages look white
 - 14/01/24 - 22:47 Alex - Terminando Turismo , el html Turismo y su contenido
-
-Changes to implement:
-1. Fit images correctly on the main page
+- 15/01/24 - 22:32 Luismi - V1.0 Finalizada. Corrección de varios errores, Corrección problemas con carácteres especiales.
